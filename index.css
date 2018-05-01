@@ -64,6 +64,10 @@
   animation-timing-function: ease-out;
 }
 
+.questions-section {
+  animation: moveInRight 1s ease-out;
+}
+
 
 .questions-section > h2 {
     font-family: "Gentium Book Basic", Georgia, serif;
@@ -177,9 +181,7 @@ a {
     width: 110px;
     height: 110px;
     padding: 5px;
-    
-    animation: moveInBottom .5s ease-out .75s;
-  animation-fill-mode: backwards;
+
   }
 
   .pic-box{
@@ -190,6 +192,9 @@ a {
     width: 120px;
     height: 120px;
     border-radius: 80%;
+
+  animation: moveInBottom .5s ease-out .75s;
+  animation-fill-mode: backwards;
   }
 
 @media only screen and (max-width: 600px) {
@@ -201,3 +206,50 @@ a {
   #portfolio {
     width: 100%;
   }
+
+}
+  @keyframes moveInLeft {
+  0%{
+    opacity: 0;
+    transform: translateX(-10rem) rotate(0deg);
+  }
+
+  80%{
+    transform: translateX(1rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInBottom {
+  0%{
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInRight {
+  0%{
+    opacity: 0;
+    transform: translateX(10rem);
+  }
+
+  80%{
+    transform: translateX(-1rem)
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
