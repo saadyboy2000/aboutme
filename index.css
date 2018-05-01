@@ -58,6 +58,13 @@
     letter-spacing: 0.05em;
 }
 
+.introduction-section {
+  animation-name: moveInLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+
+
 .questions-section > h2 {
     font-family: "Gentium Book Basic", Georgia, serif;
     font-size: 1.2em;
