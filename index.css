@@ -177,6 +177,9 @@ a {
     width: 110px;
     height: 110px;
     padding: 5px;
+    
+    animation: moveInBottom .5s ease-out .75s;
+  animation-fill-mode: backwards;
   }
 
   .pic-box{
