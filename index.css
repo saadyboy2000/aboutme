@@ -146,6 +146,24 @@ h2 {
   color: #F7EDE1;
 }
 
+.screenshot{
+
+}
+
+@media only screen and (min-width: 640px) {
+
+  .screenshot {
+   width: 50%;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+
+  .screenshot {
+   width: 100%;
+  }
+}
+
 
 
 a {
@@ -169,7 +187,10 @@ a {
 #portfolio {padding-top: 200px; width: 970px; margin: 0 auto;  text-align: center;}
 
  #portfolio {
-    width: 100%;
+    *width: 100%; 
+   
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .me{
