@@ -7,7 +7,7 @@ body {
 
 @media only screen and (max-width: 800px) {
   body {
-    font-size: 1.5em;
+    font-size: 1.7em;
   }
 
 }
@@ -58,6 +58,8 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 2em;
+    padding-right: 2em;
+    padding-left: 2em;
 }
 
 .introduction-section > p,
@@ -95,6 +97,9 @@ body {
   display:block; 
   height: auto;
   margin:auto;
+  box-sizing: border-box;
+  padding-right: 2em;
+  padding-right: 2em;
 }
 
 /*@media screen and (max-width: 600px) {
@@ -176,6 +181,8 @@ h2 {
 
 h5{
   margin-bottom: 200px;
+  padding-right: 2em;
+  padding-left: 2em;
 }
 
 
@@ -199,7 +206,7 @@ a {
   }
 }
 
-#portfolio {padding-top: 200px; width: 970px; margin: 0 auto;  text-align: center;}
+#portfolio {padding-top: 200px; width: 100%; margin: 0 auto;  text-align: center;}
 
  #portfolio {
     *width: 100%; 
